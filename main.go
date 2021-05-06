@@ -1,5 +1,12 @@
 package main
 
+import (
+	"fmt"
+
+	"github.com/NoTabaco/learngo/accounts"
+)
+
 func main() {
-	println("Hello World!");
+	account := accounts.NewAccount("kimchi")
+	fmt.Println(account)
 }
